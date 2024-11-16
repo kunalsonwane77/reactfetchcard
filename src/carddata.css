@@ -1,0 +1,32 @@
+.cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    /* border: 1px solid red; */
+}
+.cards{
+            /* border: 1px solid red; */
+    width: 450px;
+    margin: auto;
+    padding: 10px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.btncontainer{
+    margin:20px  auto;
+    /* border: 1px solid blue; */
+    width: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.btncontainer>button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(112, 234, 194);
+
+ 
+}
